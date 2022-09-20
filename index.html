@@ -1,0 +1,225 @@
+<!-- Autor del proyecto: Paul Huszak -->
+<!-- Fecha: 20/09/2022 -->
+<!-- Descripción: Proyecto final curso domestika HTML + CSS -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/67f2be0dce.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Café Oslo</title>
+  </head>
+  <body>
+    <header class="head-div">
+      <span
+        style="font-size: 30px; cursor: pointer"
+        class="lanzador-menu"
+        id="link-menu"
+        onclick="openNav()"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </span>
+      <div class="container-navbar">
+        <div class="logo">
+          <img src="./images/Logo.png" alt="Café Oslo" />
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <ul>
+            <li>
+              <a href="#espacio">EL ESPACIO</a>
+            </li>
+            <li>
+              <a href="#productos">PRODUCTOS</a>
+            </li>
+            <li>
+              <a href="#ofertas">OFERTAS</a>
+            </li>
+            <li>
+              <a href="#reservas">RESERVAS</a>
+            </li>
+            <li>
+              <a href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+
+        <nav id="menu" class="navegacion">
+          <ul>
+            <li>
+              <a class="panel-nav" href="#espacio">EL ESPACIO</a>
+            </li>
+            <li>
+              <a class="panel-nav" href="#productos">PRODUCTOS</a>
+            </li>
+            <li>
+              <a class="panel-nav" href="#ofertas">OFERTAS</a>
+            </li>
+            <li>
+              <a class="panel-nav" href="#reservas">RESERVAS</a>
+            </li>
+            <li>
+              <a class="panel-nav" href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="introduction">
+        <div class="slogan">
+          <h1>RECIÉN HECHO,</h1>
+          <br />
+          <h1>TODOS LOS DÍAS</h1>
+        </div>
+        <p class="mid-line"></p>
+        <div class="description">
+          <p>Chocolate cake chocolate cake pie candy canes chocolate cake</p>
+          <p>
+            bonbon. I love marzipan liquorice I love cake chupa chups. Pie
+            danish
+          </p>
+          <p>macaroon ice cream ice cream. Bonbon sweet bonbon jelly beans</p>
+          <p>jelly-o I love lollipop.</p>
+        </div>
+      </div>
+    </header>
+    <section class="section-double">
+      <div class="sectionLeft">
+        <h3>VEN AL BRUNCH DE LOS DOMINGOS</h3>
+        <br />
+        <p>
+          Sesame snaps icing chocolate bar. I love donut powder sesame snaps.
+          Jelly-o topping caramels. Sugar plum I love gummi bears.
+        </p>
+      </div>
+      <div class="sectionRight">
+        <h3>CELEBRA TUS FIESTAS CON NOSOTROS</h3>
+        <br />
+        <p>
+          Bonbon sweet bonbon jelly beans jelly-o I love lollipop. Cookie sesame
+          snaps bear claw. Cake dragée danish. Powder I love liquorice macaroon.
+        </p>
+      </div>
+    </section>
+    <div class="midBody-div">
+      <div class="introduction">
+        <div class="slogan">
+          <h1>VEN A DESAYUNAR</h1>
+        </div>
+        <p class="mid-line"></p>
+        <div class="description">
+          <p>
+            Bonbon topping I love sweet roll I love candy icing chocolate jelly.
+          </p>
+          <p>Pie soufflé sweet. Apple pie bonbon caramels powder.</p>
+        </div>
+        <a href="#productos">
+          <button class="descubre">DESCUBRE NUESTROS PRODUCTOS</button>
+        </a>
+      </div>
+    </div>
+    <div class="quad">
+      <section class="section-double">
+        <div class="sectionQuad">
+          <img src="./images/Icono1.png" />
+          <h3>PAN RECIÉN HECHO</h3>
+          <p>
+            Cupcake danish I love halvah bonbon icing donut. Sweet caramels
+            gingerbread bear claw jujubes chocolate cake pudding sesame snaps
+            bonbon. Chocolate cake wafer pudding muffin wafer sweet roll I love
+            chupa chups. Apple pie jujubes ice cream sugar plum topping.
+          </p>
+        </div>
+        <div class="sectionQuad">
+          <img src="./images/Icono2.png" />
+          <h3>TARTAS PARA CADA DÍA</h3>
+          <p>
+            Cookie cake jelly beans chocolate cake carrot cake croissant icing.
+            Caramels liquorice sesame snaps sugar plum I love bonbon. I love
+            halvah.
+          </p>
+        </div>
+      </section>
+      <section class="section-double">
+        <div class="sectionQuad">
+          <img src="./images/Icono3.png" />
+          <h3>PRUEBA NUESTROS DULCES</h3>
+          <p>
+            Caramels liquorice sesame snaps sugar plum I love bonbon. I love I
+            love halvah. I love marzipan cake | love donut tiramisu pudding
+            cotton candy liquorice. Jelly beans chocolate brownie gummi bears
+            dragée jelly-o.
+          </p>
+        </div>
+        <div class="sectionQuad">
+          <img src="./images/Icono4.png" />
+          <h3>INGREDIENTES ECOLÓGICOS</h3>
+          <p>
+            Carrot cake fruitcake cheesecake muffin lollipop croissant dessert
+            halvah. Cake pie bear claw marshmallow marzipan cake. Carrot cake I
+            love cotton candy ice cream chupa chups donut. Lemon drops sweet
+            marshmallow gummies I love dragée danish cake. Tart caramels sweet
+            roll jelly-o liquorice tart.
+          </p>
+        </div>
+      </section>
+    </div>
+    <section class="section-double">
+      <div class="sectionLeftInv">
+        <h3>
+          CONTACTA CON <br />
+          NOSOTROS
+        </h3>
+        <br />
+        <p>Si quieres hacer una reserva, tienes alguna sugerencia o <br /></p>
+        <p>simplemente quieres saludar, escríbenos a: <br /></p>
+        <p>
+          <strong>
+            <a href="mailto:correo@gmail.com">cafeoslo@cafeoslo.es</a>
+          </strong>
+        </p>
+      </div>
+      <div class="sectionRightInv">
+        <h3>
+          ¿SABES DÓNDE <br />
+          ESTAMOS?
+        </h3>
+        <br />
+        <p>C/ Mayor, 15 <br /></p>
+        <p>00000 Barcelona <br /></p>
+        <p>
+          <strong>
+            <a href="https://goo.gl/maps/UqsYH7UkJdfiC3eF6" target="_blank"
+              >Google Maps</a
+            >
+          </strong>
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <h4>Septiembre 2022</h4>
+      <span class="point">·</span>
+      <h4>Todos los derechos reservados</h4>
+      <span class="point">·</span>
+      <h4>Paul Huszak</h4>
+    </footer>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").classList.toggle("openMenu");
+      }
+    </script>
+  </body>
+</html>

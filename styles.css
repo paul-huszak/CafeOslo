@@ -1,0 +1,494 @@
+/* Reset CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  margin: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Código general */
+
+h1 {
+  font-size: 4em;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+li {
+  display: inline;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.head-div {
+  min-height: 45vh;
+  background-image: url("images/Fondo1.jpg");
+  background-size: cover;
+  position: relative;
+  padding: 2rem;
+}
+
+.midBody-div {
+  min-height: 45vh;
+  background-image: url("images/Fondo2.jpg");
+  background-size: cover;
+  position: relative;
+  padding-top: 10rem;
+}
+
+.container-navbar {
+  height: 12vh;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+}
+
+.logo {
+  display: flex;
+  margin: auto 50px;
+  height: fit-content;
+}
+
+.navegacion {
+  margin: auto 30px;
+  text-align: right;
+  height: fit-content;
+}
+
+.panel-nav {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 7px;
+}
+
+.introduction {
+  height: 83vh;
+  text-align: center;
+}
+
+.slogan {
+  margin-top: 14rem;
+  height: fit-content;
+  text-align: center;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.mid-line {
+  content: "";
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 150px;
+  border-bottom: 3px solid white;
+}
+
+.description {
+  height: fit-content;
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
+}
+
+.description p {
+  font-size: 1.5em;
+  line-height: 1.6rem;
+}
+
+.navegacion a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  transform: scaleX(0);
+}
+
+.navegacion a:hover {
+  border-bottom: 2px solid #d2393c;
+}
+
+.navegacion a:active {
+  color: #eec64e;
+}
+
+.section-double {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: fit-content;
+}
+
+.sectionLeft {
+  background-color: #d2393c;
+  padding: 10rem;
+  color: #ded6bf;
+}
+
+.sectionLeft p {
+  line-height: 1.5rem;
+}
+
+.sectionLeft p strong {
+  font-weight: 800;
+}
+
+.sectionRight {
+  background-color: #ded6bf;
+  padding: 10rem;
+  color: #d2393c;
+}
+
+.sectionRight p {
+  line-height: 1.5rem;
+}
+
+.descubre {
+  background-color: transparent;
+  border: 4px solid white;
+  padding: 1rem;
+  width: fit-content;
+  margin: 3rem auto;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+}
+
+.descubre:hover {
+  cursor: pointer;
+  border: 4px solid #d2393c;
+  background-color: #9b2022;
+}
+
+.quad {
+  padding: 2rem;
+}
+
+.sectionQuad {
+  text-align: left;
+  padding: 4rem 1rem 4rem 1rem;
+  height: fit-content;
+  color: rgb(50, 50, 50);
+}
+
+.sectionQuad img {
+  margin-right: 1em;
+  float: left;
+}
+
+.sectionQuad h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 0.25rem;
+}
+
+.sectionQuad p {
+  line-height: 1.5rem;
+}
+
+.sectionLeftInv {
+  background-color: #ded6bf;
+  padding: 10rem;
+  color: #d2393c;
+}
+
+.sectionLeftInv a {
+  text-decoration: none;
+  color: #d2393c;
+}
+
+.sectionLeftInv p {
+  line-height: 1.5rem;
+}
+
+.sectionLeftInv p strong {
+  font-weight: 800;
+}
+
+.sectionRightInv {
+  background-color: #d2393c;
+  padding: 10rem;
+  color: #ded6bf;
+}
+
+.sectionRightInv a {
+  text-decoration: none;
+  color: #ded6bf;
+}
+
+.sectionRightInv p {
+  line-height: 1.5rem;
+}
+
+.sectionRightInv p strong {
+  font-weight: 800;
+}
+
+.footer {
+  display: flex;
+  height: 15vh;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  text-align: left;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.footer h4 {
+  font-size: 1em;
+}
+
+.point {
+  font-size: 1em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.lanzador-menu {
+  height: fit-content;
+  width: fit-content;
+  color: #ded6bf;
+  background: none;
+  margin: 0;
+  border: 0;
+  border-radius: 5%;
+  font-size: 3rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.4rem;
+}
+
+.lanzador-menu:hover {
+  background-color: #992224;
+}
+
+.sidenav {
+  height: 0%;
+  width: fit-content;
+  position: fixed;
+  z-index: 1;
+  top: 5.5rem;
+  right: 2.3rem;
+  background: rgb(222, 214, 191, 0.7);
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #d2393c;
+}
+
+.openMenu {
+  background: rgb(222, 214, 191, 0.7);
+  text-align: right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 25%;
+  overflow: hidden;
+  color: black;
+  width: fit-content;
+  padding-right: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  body {
+    width: fit-content;
+  }
+
+  .section-double {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .navegacion {
+    display: none;
+  }
+
+  .lanzador-menu {
+    background-color: #d2393c;
+    display: block;
+    top: 2.5rem;
+    right: 2.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .quad {
+    padding: 0.5rem;
+  }
+
+  .sectionQuad {
+    margin-top: -2rem;
+    text-align: center;
+  }
+
+  .sectionQuad h3 {
+    text-align: left;
+  }
+
+  .sectionQuad p {
+    text-align: left;
+  }
+
+  .sectionQuad img {
+    margin-bottom: 2rem;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .lanzador-menu {
+    display: none;
+  }
+
+  .sidenav {
+    display: none;
+  }
+}
