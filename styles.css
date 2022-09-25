@@ -206,7 +206,6 @@ body {
 .introduction-2 {
   height: 83vh;
   text-align: center;
-  border: 1px solid purple;
 }
 
 .slogan {
@@ -325,6 +324,7 @@ body {
 
 .sectionQuad p {
   line-height: 1.5rem;
+  overflow: hidden;
 }
 
 .sectionLeftInv {
@@ -485,6 +485,7 @@ body {
 
   .midBody-div {
     height: fit-content;
+    padding-top: 1rem;
   }
 
   .introduction-2 {
