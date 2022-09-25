@@ -479,19 +479,15 @@ body {
   }
 
   .introduction {
-    border: 1px solid red;
     height: fit-content;
   }
 
   .midBody-div {
     height: fit-content;
-    border: 1px solid blue;
   }
 
   .introduction-2 {
-    border: 1px solid green;
     height: fit-content;
-    margin-top: -20vh;
     padding: 2rem;
   }
 
