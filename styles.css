@@ -458,19 +458,19 @@ body {
   }
 
   .sectionLeft {
-    padding: 5rem;
+    padding: 8rem;
   }
 
   .sectionRight {
-    padding: 5rem;
+    padding: 8rem;
   }
 
   .sectionLeftInv {
-    padding: 5rem;
+    padding: 8rem;
   }
 
   .sectionRightInv {
-    padding: 5rem;
+    padding: 8rem;
   }
 
   .navegacion {
@@ -606,6 +606,56 @@ body {
 @media screen and (orientation: portrait) and (min-width: 801px) and (max-width: 1000px) {
   .section-double {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .logo img {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  .sectionLeft {
+    padding: 15rem;
+  }
+
+  .sectionRight {
+    padding: 15rem;
+  }
+
+  .sectionLeftInv {
+    padding: 15rem;
+  }
+
+  .sectionRightInv {
+    padding: 15rem;
+  }
+
+  .head-div {
+    height: fit-content;
+    padding-bottom: 3rem;
+  }
+
+  .head-div h3,
+  p {
+    font-size: x-large;
+  }
+
+  .introduction {
+    height: fit-content;
+  }
+
+  .midBody-div {
+    height: fit-content;
+    padding-top: 9rem;
+  }
+
+  .introduction-2 {
+    height: fit-content;
+    padding: 2rem;
+  }
+
+  .slogan {
+    margin-top: 0;
   }
 
   .navegacion {
