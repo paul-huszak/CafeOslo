@@ -206,6 +206,7 @@ body {
 .introduction-2 {
   height: 83vh;
   text-align: center;
+  border: 1px solid purple;
 }
 
 .slogan {
