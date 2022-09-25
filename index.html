@@ -6,7 +6,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -219,6 +219,12 @@
     <script>
       function openNav() {
         document.getElementById("mySidenav").classList.toggle("openMenu");
+      }
+
+      if (document.documentElement.clientWidth < 480) {
+        document
+          .querySelector("meta[name=viewport]")
+          .setAttribute("content", "initial-scale=0.6 , user-scalable=no");
       }
     </script>
   </body>

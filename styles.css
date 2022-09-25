@@ -133,6 +133,10 @@ table {
 
 /* Código general */
 
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-size: 4em;
   font-weight: 800;
@@ -149,11 +153,7 @@ li {
 
 body {
   font-family: "Open Sans", sans-serif;
-  width: 100%;
-}
-
-* {
-  box-sizing: border-box;
+  width: fit-content;
 }
 
 .head-div {
@@ -443,12 +443,24 @@ body {
 }
 
 @media screen and (orientation: portrait) and (max-width: 800px) {
-  body {
-    width: fit-content;
-  }
-
   .section-double {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sectionLeft {
+    padding: 5rem;
+  }
+
+  .sectionRight {
+    padding: 5rem;
+  }
+
+  .sectionLeftInv {
+    padding: 5rem;
+  }
+
+  .sectionRightInv {
+    padding: 5rem;
   }
 
   .navegacion {
@@ -460,6 +472,31 @@ body {
     display: block;
     top: 2.5rem;
     right: 2.5rem;
+  }
+
+  .head-div {
+    height: fit-content;
+  }
+
+  .introduction {
+    border: 1px solid red;
+    height: fit-content;
+  }
+
+  .midBody-div {
+    height: fit-content;
+    border: 1px solid blue;
+  }
+
+  .introduction-2 {
+    border: 1px solid green;
+    height: fit-content;
+    margin-top: -20vh;
+    padding: 2rem;
+  }
+
+  .slogan {
+    margin-top: 0;
   }
 
   h1 {
@@ -500,26 +537,6 @@ body {
 }
 
 @media screen and (orientation: landscape) and (max-width: 800px) {
-  body {
-    width: fit-content;
-  }
-
-  .head-div {
-    height: 200vh;
-  }
-
-  .midBody-div {
-    height: 200vh;
-  }
-
-  .introduction {
-    margin-top: -30vh;
-  }
-
-  .introduction-2 {
-    margin-top: -45vh;
-  }
-
   .section-double {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -573,10 +590,6 @@ body {
 }
 
 @media screen and (orientation: portrait) and (min-width: 801px) and (max-width: 1000px) {
-  body {
-    width: fit-content;
-  }
-
   .section-double {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -630,26 +643,6 @@ body {
 }
 
 @media screen and (orientation: landscape) and (min-width: 801px) and (max-width: 1000px) {
-  body {
-    width: fit-content;
-  }
-
-  .head-div {
-    height: 170vh;
-  }
-
-  .midBody-div {
-    height: 170vh;
-  }
-
-  .introduction {
-    margin-top: -30vh;
-  }
-
-  .introduction-2 {
-    margin-top: -40vh;
-  }
-
   .section-double {
     grid-template-columns: repeat(1, 1fr);
   }
