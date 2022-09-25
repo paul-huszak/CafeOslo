@@ -392,12 +392,11 @@ body {
   background: none;
   margin: 0;
   border: 0;
-  border-radius: 5%;
   font-size: 3rem;
   position: absolute;
   top: 2rem;
   right: 2rem;
-  padding: 0.4rem;
+  padding: 0.6rem;
 }
 
 .lanzador-menu:hover {
@@ -448,6 +447,16 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .section-double p {
+    font-size: x-large;
+  }
+
+  .logo img {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
   .sectionLeft {
     padding: 5rem;
   }
@@ -477,6 +486,12 @@ body {
 
   .head-div {
     height: fit-content;
+    padding-bottom: 3rem;
+  }
+
+  .head-div h3,
+  p {
+    font-size: x-large;
   }
 
   .introduction {
@@ -485,7 +500,7 @@ body {
 
   .midBody-div {
     height: fit-content;
-    padding-top: 1rem;
+    padding-top: 3rem;
   }
 
   .introduction-2 {
@@ -516,6 +531,7 @@ body {
 
   .sectionQuad p {
     text-align: left;
+    font-size: x-large;
   }
 
   .sectionQuad img {
